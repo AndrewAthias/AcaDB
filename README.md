@@ -1,4 +1,4 @@
-# Interacive Acappella Database (Name TBD)
+# Interactive Acappella Database (Name TBD)
 
 No more will acappella groups have a hard time searching for guest groups for concerts, groups for hosting, groups to collaborate with, or simply know what groups are where. 
 
