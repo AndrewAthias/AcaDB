@@ -6,7 +6,8 @@ var SearchingTable = React.createClass({
           <tr>
             <th className="col-md-3">Name</th>
             <th className="col-md-2">Gender</th>
-            <th className="col-md-3">Location</th>
+            <th className="col-md-3">City</th>
+            <th className="col-md-4">State</th>
             <th className="col-md-4">Email</th>
             <th className="col-md-4">Website</th>  
           </tr>

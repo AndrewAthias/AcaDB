@@ -5,7 +5,6 @@ var SearchingApplication = React.createClass({
       <div className="container">
         <div className="jumbotron">
           <h1>AcaDB</h1>
-          <p>by Andrew Athias</p>
         </div>
         <div className="row">
           <div className="col-md-12">
