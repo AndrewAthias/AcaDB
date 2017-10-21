@@ -11,6 +11,7 @@ gem 'ransack', github: 'activerecord-hackery/ransack'
 gem 'meta-tags'
 # Authentification gem (V IMPORTANT)
 gem 'devise'
+gem 'rubocop','~> 0.50.0', require: false
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
@@ -53,6 +54,8 @@ group :development, :test do
 end
 
 group :development do
+  # Check for secuurity vulnerabilities
+  gem 'brakeman', :require => false
   # Better and cleaner error pages to replace Rails error page
   gem 'better_errors'
   gem 'pry-rails'
