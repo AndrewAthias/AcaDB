@@ -1,6 +1,6 @@
-class CreateSearchings < ActiveRecord::Migration[5.1]
+class CreateAcagroups < ActiveRecord::Migration[5.1]
   def change
-    create_table :searchings do |t|
+    create_table :acagroups do |t|
       t.string :Name
       t.string :Gender
       t.string :City

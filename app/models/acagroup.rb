@@ -1,0 +1,2 @@
+class Acagroup < ApplicationRecord
+end

@@ -5,7 +5,17 @@
 	<title>Document</title>
 </head>
 <body>
-	<%= react_component 'SearchingApplication' %>
+	<%= react_component 'AcagroupApplication' %>
+	<%= search_form_for @q, url: search_api_acagroups_path, html: { method: :post } do |f| %>
+
+		<%= f.label :Name_cont, "Group Name Contains" %>
+		<%= f.search_field :Name_cont %>
+		
+		<%= f.submit "Search Groups"%>
+
+
+	<% end %>
+	
 </body>
 </html>
 

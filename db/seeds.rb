@@ -17,7 +17,7 @@ csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
 
 # Loop trough the parsed data
 csv.each do |row|
-	t = Searching.new
+	t = Acagroup.new
 	t.Name = row['Name']
 	t.University = row['University']
 	t.Gender = row['Gender']
@@ -29,4 +29,4 @@ csv.each do |row|
 	puts " #{t.Name} was saved"
 end
 
-puts "The Acappella Database has been updated"
+puts "The Acappella Database has been updated."

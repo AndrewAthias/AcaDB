@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20171017042135) do
 
-  create_table "searchings", force: :cascade do |t|
+  create_table "acagroups", force: :cascade do |t|
     t.string "Name"
     t.string "Gender"
     t.string "City"

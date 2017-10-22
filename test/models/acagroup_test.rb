@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SearchingsControllerTest < ActionDispatch::IntegrationTest
+class AcagroupTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

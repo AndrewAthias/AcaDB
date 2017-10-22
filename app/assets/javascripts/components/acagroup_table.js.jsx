@@ -1,4 +1,4 @@
-var SearchingTable = React.createClass({
+var AcagroupTable = React.createClass({
   render: function() {
     return(
       <table className="table table-striped">
