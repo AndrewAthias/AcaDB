@@ -9,7 +9,7 @@ var Acagroup = React.createClass({
     Website: React.PropTypes.string
   },
   render: function() {
-    var acagroup = this.props.event;
+    var acagroup = this.props.acagroup;
     return(
       <tr>
         <td>{acagroup.Name}</td>

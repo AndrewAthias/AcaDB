@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+=begin
 # allow csv file
 require 'csv'
 
@@ -30,3 +31,15 @@ csv.each do |row|
 end
 
 puts "The Acappella Database has been updated."
+=end
+
+
+1.upto(10) do |i|
+  Acagroup.create(Name: "Group #{i}",
+               University: "Some College #{i}",
+               Gender: "All Singing",
+               City: "Random place number #{i}",
+               State: "Random state #{i}",
+               Email: "Fakeemail@Group.com",
+               Website: "www.Group#{i}.com")
+end
