@@ -6,7 +6,7 @@ THE FUTURE OF ACAPPELLA IS HERE!
 
 Brought to you proudly by Andrew Athias (RIT's Eight Beat Measure alumnus, and creator of http://www.whatshouldacappellacallme.tumblr.com/)
 
-Designed with Ruby on Rails (Ruby 2.3/Rails 5.1.4) & ReactJS
+Designed with Ruby on Rails (Ruby 2.3/Rails 5.1.4) & AngularJS
 
 ## How To Use The Database
 
